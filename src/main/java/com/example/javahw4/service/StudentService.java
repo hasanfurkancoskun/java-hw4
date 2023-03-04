@@ -29,7 +29,6 @@ public class StudentService {
     public void deleteExistingStudent(Student student) {
         studentRepository.delete(student);
     }
-
     public Student findStudentByStudentId(int id){
         Student student=studentRepository.findStudentByStudentId(id);
         return student;
